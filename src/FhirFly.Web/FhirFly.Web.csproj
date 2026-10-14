@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\FhirFly.Core\FhirFly.Core.csproj" />
+    <ProjectReference Include="..\FhirFly.Fhir\FhirFly.Fhir.csproj" />
+    <ProjectReference Include="..\FhirFly.Hl7\FhirFly.Hl7.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
